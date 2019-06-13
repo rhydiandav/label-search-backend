@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/rhydiandav/label-search-backend#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "querystringify": "^2.1.1",
+    "request": "^2.88.0"
   }
 }
