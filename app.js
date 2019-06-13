@@ -17,7 +17,7 @@ const { redirect_uri, SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET } = auth;
 const app = express();
 
 app.get('/', (req, res) => {
-  res.status(200).send({ msg: 'Please go to /login to log in' });
+  res.status(200).send({ msg: 'Please go to /login' });
 });
 
 app.get('/login', (req, res) => {
