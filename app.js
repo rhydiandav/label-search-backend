@@ -10,7 +10,7 @@ const auth =
         SPOTIFY_CLIENT_ID: process.env.SPOTIFY_CLIENT_ID,
         SPOTIFY_CLIENT_SECRET: process.env.SPOTIFY_CLIENT_SECRET
       }
-    : require('./connection');
+    : require('./auth');
 
 const { redirect_uri, SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET } = auth;
 
